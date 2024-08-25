@@ -1,19 +1,18 @@
 # Comprehensive Data Pipeline Implementation Overview
 
-This project automates data extraction, processing, and analysis using Python, Selenium, and Google Cloud Services. It streamlines data collection from various sources, transforms and loads data into Google BigQuery, and generates interactive dashboards for business insights.
+This project automates data extraction, processing, and analysis using Python, Selenium, Docker, and Google Cloud Services. It streamlines data collection from various sources, transforms and loads data into Google BigQuery, and generates interactive dashboards for business insights.
 
 ## Features
 
-- **Web Scraping**: Utilizes Selenium to extract data from diverse websites.
-- **Data Processing**: Cleans, transforms, and loads data into Google BigQuery.
-- **Data Analysis**: Generates interactive dashboards using Looker for business insights.
-- **Automation**: Schedules tasks using Cloud Scheduler for seamless data updates.
+- **Web Scraping & Data Processing**: Utilizes Selenium to extract data from diverse websites.
+- **Automation**: Build and deploy docker images to Google Cloud Artifac Registry. Schedules tasks using Cloud Scheduler for seamless data updates.
+- - **Data Analysis**: Generates interactive dashboards using Looker and Google Sheet for business insights.
 
 ## Technical Details
 
 - **Programming Languages**: Python
 - **Libraries**: Selenium, pandas, Google Cloud Client Library
-- **Services**: Google Cloud Run, Cloud Scheduler, BigQuery, Looker
+- **Services**: Docker, Google Cloud Run, Cloud Scheduler, BigQuery, Looker
 
 ## Scripts
 
@@ -26,7 +25,9 @@ This project automates data extraction, processing, and analysis using Python, S
 1. Set up Google Cloud Services and install required libraries.
 2. Configure Selenium WebDriver options.
 3. Run scripts to extract, process, and analyze data.
-4. Schedule tasks using Cloud Scheduler.
+4. Clean and build Docker images after developing web scraping tasks.
+5. Deploy Docker images to Google Cloud Services.
+6. Schedule tasks using Cloud Scheduler.
 
 ## Benefits
 
