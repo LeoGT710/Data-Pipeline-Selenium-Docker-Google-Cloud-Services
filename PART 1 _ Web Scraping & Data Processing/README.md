@@ -52,7 +52,7 @@ pip install selenium webdriver-manager google-cloud-logging google-cloud-bigquer
 
 ### Environment Variables
 
-Set the following environment variables in your environment:
+Set the following environment so that date column data follow your format:
 
 ```bash
 export TZ=Asia/Ho_Chi_Minh
