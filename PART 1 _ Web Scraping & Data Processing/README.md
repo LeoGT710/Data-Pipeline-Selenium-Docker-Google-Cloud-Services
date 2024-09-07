@@ -4,7 +4,7 @@
 ## Overview
 
 This project is a Python-based web scraping solution utilizing Selenium for automating browser interactions,
-downloading data,and cleaning it for further processing. It integrates with Google Cloud services for logging
+downloading data,and cleaning it for loading to Google Big Query data warehouse. It integrates with Google Cloud services for logging
 and data storage, and it sends email notifications to provide status updates.
 
 ### Prerequisites
