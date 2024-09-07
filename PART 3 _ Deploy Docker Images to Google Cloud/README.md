@@ -89,5 +89,5 @@ This command uploads the Docker image to the specified Google Cloud Artifact Reg
 This process helps you manage your Docker images by first pushing them to Docker Hub, then pulling them into a Google Cloud environment, tagging them appropriately, and finally pushing them to Google Cloud Artifact Registry for use in Google Cloud services like Cloud Run, Cloud Functions, or Kubernetes Engine.
 ```
 
-![alt text](image.png)
+
 
