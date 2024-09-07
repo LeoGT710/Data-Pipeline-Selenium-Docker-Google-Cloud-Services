@@ -1,7 +1,9 @@
 ```markdown
 # Selenium Web Scraping Docker Setup
 
-This project containerizes a Selenium-based web scraping application using a standalone Chrome Docker image. The container includes Python, necessary libraries, and dependencies for running the scraping task in a secure, isolated environment.
+This project containerizes a Selenium-based web scraping application using a standalone Chrome Docker image.
+The container includes Python, necessary libraries, and dependencies for running the scraping task in a secure,
+isolated environment.
 
 ## Table of Contents
 - [Base Image](#base-image)
