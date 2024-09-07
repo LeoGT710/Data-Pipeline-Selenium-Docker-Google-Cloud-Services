@@ -76,10 +76,10 @@ chrome_options.add_argument("--window-size=1920,1080")
 
 ### Running the Script
 
-To start the web scraping and data processing, run the `ipos_sales()` function:
+To start the web scraping and data processing, run the `main()` function, it will trigger `ipos_sales()`,`momo()`,`ipos_thuchi()`,`ipos_ketca()`, `grab()`,`spf()`:
 
 ```python
-ipos_sales()
+main()
 ```
 
 This function will:
@@ -87,25 +87,7 @@ This function will:
 - Download a report as an Excel file.
 - Clean the downloaded data and process it into a pandas DataFrame.
 - Log results and remove the file after processing.
-
-### Example Output
-
-The cleaned data will have the following columns:
-
-- `CUA_HANG`, `MA_HANG`, `TEN_HANG`, `NGAY`, `GIA`, etc.
-  
-The script will also log messages at each stage of the process.
-
-## Error Handling and Retries
-
-The script includes a retry mechanism for handling transient errors. It will retry up to 3 times with a 30-second delay between attempts:
-
-```python
-max_retries = 3
-retry_delay = 30
-```
-
-If the process fails after the maximum number of retries, an error message will be logged, and the script will terminate.
+- Load the data to Google Big Query warehouse
 
 ## Credits
 
