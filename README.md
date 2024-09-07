@@ -5,8 +5,9 @@ This project automates data extraction, processing, and analysis using Python, S
 ## Structure
 
 - **PART 1 _ Web Scraping & Data Processing**: Utilizes Selenium to extract data from diverse websites.
-- **PART 2 _ Automation**: Build and deploy docker images to Google Cloud Artifac Registry. Schedules tasks using Cloud Scheduler for seamless data updates.
-- **PART 3 _ Data Analysis**: Generates interactive dashboards using Looker and Google Sheet for business insights.
+- **PART 2 _ Docker**: Build docker images 
+- **PART 3 _ Automation**: Deploy docker images to Google Cloud Artifac Registry. Schedules tasks using Cloud Scheduler for seamless data updates.
+- **PART 4 _ Data Analysis**: Generates interactive dashboards using Looker and Google Sheet for business insights.
 
 ## Technical Details
 
