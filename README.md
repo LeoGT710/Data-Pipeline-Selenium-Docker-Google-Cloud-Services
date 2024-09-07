@@ -41,4 +41,3 @@ This project automates data extraction, processing, and analysis using Python, S
 - Enhance data transformation and loading processes.
 - Develop additional dashboards and reports.
 
-Feel free to modify this README to better suit your project's specific needs.
