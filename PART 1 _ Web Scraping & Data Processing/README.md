@@ -76,7 +76,7 @@ chrome_options.add_argument("--window-size=1920,1080")
 
 ### Running the Script
 
-To start the web scraping and data processing, run the `main()` function, it will trigger `ipos_sales()`,`momo()`,`ipos_thuchi()`,`ipos_ketca()`, `grab()`,`spf()`:
+To start the web scraping and data processing, run the `main()` function, it will trigger `ipos_sales()`,`momo()`,`ipos_thuchi()`,`ipos_ketca()`, `grab()`,`spf()`,`send_email(log_messages)`:
 
 ```python
 main()
@@ -88,6 +88,7 @@ This function will:
 - Clean the downloaded data and process it into a pandas DataFrame.
 - Log results and remove the file after processing.
 - Load the data to Google Big Query warehouse
+- send_email(log_messages) will log output to email when automating by Docker
 
 ## Credits
 
